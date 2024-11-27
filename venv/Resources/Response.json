@@ -1,0 +1,18 @@
+[
+  {
+    "Timestamp": "2024-11-24T00:07:10.746Z",
+    "Score": 4,
+    "Name": "Rajat Patle",
+    "Email": "abc123@office.com",
+    "Which of the following is a valid keyword in Java?": "string",
+    "What is the default value of a local variable in Java?": "No default value",
+    "Which of these access modifiers can be used for a class in Java?": "static",
+    "What does the final keyword denote when used with a variable?": "The variable is only accessible in the same class.",
+    "Which of the following is the correct way to create an array in Java?": "int arr[] = new int[5];",
+    "What is the output of the following code?\nint x = 5;\nSystem.out.println(x++ + ++x);": 12,
+    "Which exception is thrown when dividing an integer by zero in Java?": "NullPointerException",
+    "What does the this keyword represent in Java?": "The superclass of the class.",
+    "What is the size of the int data type in Java?": "32 bits",
+    "Which method is used to start a thread in Java?": "init()"
+  }
+]
