@@ -1,0 +1,69 @@
+.hexaware-dashboard {
+    /* Overall layout and styling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .progress-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .progress-circle {
+    text-align: center;
+  }
+  
+  .progress-circle svg {
+    /* Customize circle size, colors, etc. */
+  }
+  
+  .progress-text {
+    /* Customize text styling */
+  }
+  
+  .assessment-summary {
+    width: 80%;
+  }
+  
+  .assessment-table {
+    /* Customize table styling */
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .assessment-table th, .assessment-table td {
+    /* Customize table cell styling */
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .assessment-table th {
+    /* Customize table header styling */
+    background-color: #f2f2f2;
+  }
+
+  .progress-circle svg {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .progress-circle circle {
+    stroke-width: 10px;
+  }
+  
+  .progress-circle circle:first-child {
+    stroke: #ccc;
+  }
+  
+  .progress-circle circle:last-child {
+    stroke: #3498db;
+  }
