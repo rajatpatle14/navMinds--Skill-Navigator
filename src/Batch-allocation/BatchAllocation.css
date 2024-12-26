@@ -1,0 +1,103 @@
+/* Container styling */
+.batch-allocated-container {
+    background-image: url('../Stuff/boofer.png');
+    background-size: auto; /* Adjust this to 'cover', 'contain', or specific size values */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9fc;
+    position: relative;
+  }
+  
+  /* Floating dots */
+  .batch-allocated-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, #ffa4a4 2px, transparent 2px),
+      radial-gradient(circle, #ffbfd3 2px, transparent 2px);
+    background-size: 30px 30px;
+    background-position: 0px 0px, 15px 15px;
+    z-index: -1;
+  }
+  
+  /* Card styling */
+  .batch-card {
+    background-color: #f3f4f7;
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Close button */
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #b0b0b0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    color: #ff6b6b;
+  }
+  
+  /* Header styling */
+  .batch-card h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styling */
+  .batch-card p {
+    color: #555;
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* Batch name */
+  .batch-name {
+    font-weight: bold;
+    color: #5a67d8;
+  }
+  
+  /* Batch ID */
+  .batch-id {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  
+  /* Continue button */
+  .continue-button {
+    background-color: #5a67d8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .continue-button:hover {
+    background-color: #434bb6;
+  }
+  /* ////////////////////////////// */
+
+  /* Image 17 */
